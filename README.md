@@ -1,7 +1,7 @@
 # DOMINANT Reproduction
 
 Reproducing Ding, Li, Bhanushali, Liu, "Deep Anomaly Detection on Attributed Networks" (SDM 2019),
-as step one of a self-directed study of graph anomaly detection ahead of a PhD application.
+as step one of a self-directed study of graph anomaly detection.
 
 ## Two versions, two purposes
 
@@ -130,9 +130,3 @@ better in the library version (0.310 vs. 0.220), consistent with PyGOD's `DOMINA
 handling the class-imbalance problem internally by default — i.e., the bug this reproduction had
 to find and fix by hand (plain MSE failing on a 99.85%-sparse adjacency matrix) is evidently a
 well-known enough issue that mature library implementations already guard against it.
-
-## Next steps
-
-1. Move to CoLA (contrastive method) as the second reproduction target.
-2. Generalization experiment: train on one dataset, evaluate on another, to connect this to the
-   actual graph-foundation-model research question.
