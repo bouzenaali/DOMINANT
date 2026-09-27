@@ -130,3 +130,5 @@ better in the library version (0.310 vs. 0.220), consistent with PyGOD's `DOMINA
 handling the class-imbalance problem internally by default — i.e., the bug this reproduction had
 to find and fix by hand (plain MSE failing on a 99.85%-sparse adjacency matrix) is evidently a
 well-known enough issue that mature library implementations already guard against it.
+
+### Read the [report](./dominant_report.pdf) for more details.
